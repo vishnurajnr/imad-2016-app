@@ -10,11 +10,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.send("Article one testing...");
+    res.send('Article one testing...');
     
 });
 app.get('/article-two', function (req, res) {
-    res.send("Article two testing...");
+    res.send('Article two testing...');
     
 });
 app.get('/ui/style.css', function (req, res) {
